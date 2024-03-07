@@ -1,0 +1,145 @@
+*margin {
+    top: 0;
+    bottom: 0;
+}
+
+body {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-style: hidden;
+    background-color:lightpink;
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+} 
+
+.container {
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.container h1 {
+    font-weight: 700;
+    font-size: 28px;
+   
+}
+
+.container p {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.form_container{
+    padding: 2%;
+    border-style: hidden;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    background-color:rgb(248, 246, 245);
+
+}
+
+.form_container h3{
+    margin-left: 20px;
+    color:maroon;
+}
+
+.form_container ol {
+   list-style: disc;
+}
+
+.form_container ol li {
+    padding-left: 10px;
+    padding: 5px;
+}
+
+.form_container ol li span {
+    font-weight: 700;
+}
+
+.form_container ol li::marker {
+    color: maroon;
+}
+
+.ingredients h2 {
+    color: maroon;
+}
+
+.ingredients ol {
+    list-style: disc;
+    padding-left: 25px;
+    
+}
+
+.ingredients ol li {
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.ingredients ol li::marker {
+    color: maroon;
+}
+
+.instructions h2 {
+    color: maroon;
+}
+
+.instructions ol {
+    list-style: element(number);
+    padding-left: 25px;
+}
+
+.instructions ol li {
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.instructions ol li span {
+     font-weight: 700;
+}
+
+.instructions ol li::marker {
+    color: maroon;
+}
+
+.nutrition h2 {
+      color:maroon;
+}
+
+.nutrition p {
+    padding: 5px;
+}
+
+.nutrition table td {
+    width: auto;
+    border: 1px ;
+    border-style: groove;
+    padding: 40px;  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 210px;
+       
+}
+
+.nutrition table td span {
+    color:maroon;
+}
+
+.hr {
+    border-color: groove;
+     
+}
