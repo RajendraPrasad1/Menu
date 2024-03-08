@@ -128,11 +128,12 @@ img {
     width: auto;
     border: 1px ;
     border-style: groove;
-    padding: 40px;  
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 210px;
-       
+    padding: 40px;         
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nutrition table td span {
